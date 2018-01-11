@@ -7,8 +7,11 @@ Just copy the `src/colorifyIt.js` to your project folder.
  Include the script file
 
 ```html
-  <script src="path/to/colorifyIt.js"></script>```
+  <script src="path/to/colorifyIt.js"></script>
+```
+  
  And call the `colorifyIt()`
+ 
 ```javascript
   <script type="text/javascript">
     colorifyIt("target DOM object",options);
