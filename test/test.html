@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Colorify Test</title>
+    <style media="screen">
+      .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      h1{
+        flex-grow: 3;
+      }
+      .first{
+        flex-grow: 1;
+      }
+      .second{
+        flex-grow: 1;
+      }
+    </style>
+    <script src="../src/colorifyIt.js" charset="utf-8"></script>
+    <script>
+      colorifyIt("body",{
+        timeDelay:5,
+        timeTransition:5,
+        backgroundType:'randomColor'
+      });
+    </script>
+  </head>
+
+  <body>
+    <h1>My Title</h1>
+    <div class="container">
+      <div class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div class="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </body>
+
+</html>
