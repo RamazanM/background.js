@@ -1,6 +1,6 @@
 # ColorifyIt.js
 
-![Example] (example.gif)
+![](https://github.com/RamazanM/colorifyIt.js/blob/master/example.gif?raw=true)
 
 ### How to install ?
 Just copy the `src/colorifyIt.js` to your project folder.
