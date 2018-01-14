@@ -1,6 +1,7 @@
 # ColorifyIt.js
-![Example]
-(/example.gif)
+
+![Example] (example.gif)
+
 ### How to install ?
 Just copy the `src/colorifyIt.js` to your project folder.
 
@@ -10,9 +11,9 @@ Just copy the `src/colorifyIt.js` to your project folder.
 ```html
   <script src="path/to/colorifyIt.js"></script>
 ```
-  
+
  And call the `colorifyIt()`
- 
+
 ```javascript
   <script type="text/javascript">
     colorifyIt("target DOM object",options);
