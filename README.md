@@ -8,18 +8,20 @@ Just copy the `src/colorifyIt.js` to your project folder.
  Include the script file
 
 ```html
-  <script src="path/to/colorifyIt.js"></script>```
+  <script src="path/to/colorifyIt.js"></script>
+```
+  
  And call the `colorifyIt()`
+ 
 ```javascript
   <script type="text/javascript">
     colorifyIt("target DOM object",options);
   </script>
 ```
-> **Note:**You must give the target DOM object like jQuery;  
+> **Note:** You must give the target DOM object like jQuery;  
 For id selector `"#id"`,  
 For class selector `".class"`  
 For tag/name selector `"tag"`
-
 
 ### What are the options ?
 Options are parameters **object** of colorify:
