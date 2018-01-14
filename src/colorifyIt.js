@@ -38,22 +38,18 @@ var colorifyIt=function(target,userOptions){
   }
 
   if(target!=undefined)options.object=target;
-  // console.log(getDomObjects(target));
   setOptions(userOptions);
-  console.log();
 
 
   document.addEventListener('DOMContentLoaded',function(){
     var targetDoms=getDomObjects(target);
     applyTransition(targetDoms,options.timeTransition+"s");
-    // $(options.object).css("transition-duration",options.timeTransition+"s");
 
     var arrayCounter=0;
     setInterval(function(){
       if(options.backgroundType=='colorArray'){
         if(arrayCounter>=options.colorArray.length) arrayCounter=0;
         applyBackground(targetDoms,options.colorArray[arrayCounter]);
-        // $(options.object).css("background",options.colorArray[arrayCounter]);
         console.log(options.colorArray[arrayCounter]);
         arrayCounter++;
       }
